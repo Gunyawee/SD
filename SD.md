@@ -7,7 +7,7 @@
 2>> git init <br/>
   #  <br/>
   
-3>> add SD.md <br/>
+3>> git add SD.md <br/>
   #   <br/>
   
 4>> git status <br/>
