@@ -2,24 +2,24 @@
  <h2> คำสั่งพื้นฐานของ git </h2> <br/>
 
 1>> echo "#SOFTDEV" >> SD.md <br/>
-  #เป็นการเขียน text ลงไปในไฟล์ เหมือนกับให้ใน file SD.md นั้นแสดงคำว่า SOFTDEV <br/>
+  # เป็นการเขียน text ลงไปในไฟล์ เหมือนกับให้ใน file SD.md นั้นแสดงคำว่า SOFTDEV <br/>
   
 2>> git init <br/>
-  #  <br/>
+  # เป็นคำสั่งสร้าง git <br/>
   
 3>> git add SD.md <br/>
-  #   <br/>
+  # เป็นคำสั่งเิ่ไฟล์ <br/>
   
 4>> git status <br/>
-  #   <br/>
+  #   เชคสถานะของ git <br/>
 
 5>> git config --global user.email khanzazaiiii@gmail.com <br/>
-  #  <br/>
+  #   เป็นคำสั่งที่ใช้แสดงและกำหนดข้อมูลของผู้ใช้เพื่อระบุตัวตน <br/>
   
 6>> git config --global user.name Gunyawee <br/>
-   # <br/>
+  #    เป็นคำสั่งที่ใช้แสดงและกำหนดข้อมูลของผู้ใช้เพื่อระบุตัวตน <br/><br/>
 7>> git commit -m "Commit"
-   # <br/>
+  # เป็รการยืนยันการเปลี่ยนแปลงข้อมูลหรือการอัปเดทบ่าสุดของข้อมูล หรือการ commit นั้นเอง <br/>
    
 8>> git remote add origin https://github.com/Gunyawee/SD.git
    # <br/>
