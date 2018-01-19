@@ -1,6 +1,8 @@
-  <h1> Homework </h1> <br/>
+  <h1 style="background-color:DodgerBlue;"> Homework </h1> <br/>
  <h2> คำสั่งพื้นฐานของ git </h2> <br/>
-
+<body>
+  body {background-color: powderblue;}
+  
 1>> echo "#SOFTDEV" >> SD.md <br/>
   - เป็นการเขียน text ลงไปในไฟล์ เหมือนกับให้ใน file SD.md นั้นแสดงคำว่า SOFTDEV <br/>
   
