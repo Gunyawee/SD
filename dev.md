@@ -1,66 +1,64 @@
 #I've learned
 
-Git checkout test.txt
-Git reset HEAD test.txt 
-Git pull 
+Git checkout test.txt >>  use it when you want ot recovery your file before you didn't commit it yet.
+
+Git reset HEAD test.txt >>  ues it with the firt one if you want to recovery your file when you commited it.
+
+Git pull >> to make your local as same as your remote origin
+
 Git reset —soft “head^”
-Gir rm Test.txt ลบไฟล์หลัง commit 
 
-เรียกไฟล์กลับ ในกรณีที่ commit ไปแล้ว  ถ้ายังไม่ commit ก็ checkout อย่างเดียว
-Gor reset HEAD test.txt
-Git checkout test.txt 
-
-ถ้าทำในคอมแล้วจะให้ขึ้นบนเว็บเหมือนกันในเว็บ
-Git add .
-Git commit -m “update”
-Git push 
+Gir rm Test.txt >> to delete your file which is commited 
 
 
-ลบในเว็บ แล้วมาทำ 
-Git fetch 
-Git merge
+Git add . >> to add your file (all the files that you want to change or add)
+Git commit -m “update” >> to commit the files
+Git push origin master >> to upload file to the remote origin branch name master
 
-การซ่อนข้อมูล
-Git stash ซ่อน
-Git stash pop แสดงที่ซ่อนกลับมา
- และก็อัฟหน้าเว็บตามปกติ
+===  when you edit the files in the remote orgin and you should change in the local part too you can use
+>> Git fetch 
+>> Git merge   or  >> git pull
 
-แสดงบรานซ์
-Git brach -a
+==when you want to hide your data youcan use
+>> Git stash (to hide)
+>> Git stash pop (to show it back)
+ 
 
-สร้างบรานซ์
-Git brach dev
 
-ย้าย * ไปที่ dev (switch branch)
-Git checkout dev 
+Git brach -a  >> show all branshes
 
-สร้างและย้ายไปเลย
-Git checkout -b new
+Git brach dev  >> make a branch
 
-ลบบรานซ์ dev 
-Git brach -d dev
+Git checkout dev >> move to dev branch
 
-Create new.md
+Git checkout -b new >> make and move to new branch
 
-Get push -u origin new**
+Git brach -d dev >> to delete branch
 
-ถ้าตะอัปเดทจาก new บรานมาใส่ใน master
+
+Get push -u origin new >> to upload file to the remote origin in branch name new
+
+
+-----my little note :)-------------------------------------
+
 Git checkout master
-Git merge dev เอารวมกัน 2 บรานซ์
-Git add . Commit push master 
-Git checkout new แก้ในไฟล์
+Git merge dev 
+Git add .
+Git commit -m “”
+push origin  master 
+Git checkout new 
 Git add. 
 Git commit -m “”
 Git push origin  new
 
 Git checkout master
-Git merge —no-f แก้ไฟล์ที่รวมยุแล้ว
- ก็ add commit push 
-
-
-สร้างบรานซ์ 2 บรานซ์. ( dev , feature)
-Dev : dev.md  ใส่ความรู้ที่ได้ไป
-feature : feature.md  เอาข้อมูลของโปรเจค
+Git merge —no-f 
+Git add .
+Git commit -m “”
+push origin  master 
 
 Switch  to branch master
 Git merge —no-f new #merge from new to master
+
+-------------------------------------------------------
+
