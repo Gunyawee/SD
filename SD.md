@@ -1,6 +1,5 @@
-  <h1 style="background-color:DodgerBlue;"> Homework </h1> <br/>
+  <h1> Homework </h1> <br/>
  <h2> คำสั่งพื้นฐานของ git </h2> <br/>
-<body>
   body {background-color: powderblue;}
   
 1>> echo "#SOFTDEV" >> SD.md <br/>
@@ -10,7 +9,7 @@
   - เป็นคำสั่งสร้าง git <br/>
   
 3>> git add SD.md <br/>
-  - เป็นคำสั่งเิ่ไฟล์ <br/>
+  - เป็นคำสั่งเพิ่มไฟล์ <br/>
   
 4>> git status <br/>
   -   เชคสถานะของ git <br/>
